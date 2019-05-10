@@ -26,14 +26,22 @@
 using namespace std;
 using namespace cv;
 
+<<<<<<< HEAD
 #define ISOPEN_INDUSTRY_CAPTURE 0
+=======
+#define ISOPEN_INDUSTRY_CAPTURE 1
+>>>>>>> b76223c7cbd27763d427d43659e731e52f19e7af
 /**
   @brief: 是否使用工业相机
   @param: 0 使用工业相机
   @param: 1 使用普通USB相机
 */
 
+<<<<<<< HEAD
 #define CAPTURE_DEFULT 0//"/home/hzh/视频/camera_13.avi"
+=======
+#define CAPTURE_DEFULT "/home/hzh/视频/camera_13.avi"
+>>>>>>> b76223c7cbd27763d427d43659e731e52f19e7af
 /**
   @brief: 相机的默认值
   @note: 使用普通USB相机时，Opencv的Videoture借口的值
